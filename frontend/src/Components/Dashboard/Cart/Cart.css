@@ -1,0 +1,50 @@
+.checkout{
+    border: 1px solid black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #F9F2EC;
+
+}
+.uzbaigticheck > button{
+    
+
+    align-items: center;
+   margin: 20px;
+    
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+ 
+    
+}
+.cartItem{
+    display: flex;
+    width: 100%;
+    align-items: center;
+   
+    
+}
+
+.cartItem> div{
+    
+    width: 100%;
+    align-items: center;
+    background-color: #F9F2EC;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 5%;
+    padding: 2%;
+    
+}
+
+.order{
+    width: 80%;
+    
+}

@@ -1,0 +1,8 @@
+.showMessagegood{
+    background-color: rgb(134, 192, 46);
+    display: block;
+}
+.showMessagebad{
+    background-color: rgb(255, 0, 0);
+    display: block;
+}

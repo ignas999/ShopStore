@@ -1,0 +1,86 @@
+
+
+.main{
+   background-color: #F3F2EC;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    
+
+}
+
+.topside{
+    display: flex;
+    justify-content: end;
+    align-items:center;
+    background-color: #C5A992;
+    
+}
+
+
+.topside >div{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftside , .rightside , .middle{
+    color: #2f2f2f;
+    border: 1px solid black;
+
+}
+.leftside {
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.rightside {
+    width: 20%;
+ }
+ .middle {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: fit-content;
+    
+ }
+ .products{
+    display: flex;
+    margin:   auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+ .product{
+    border: 2px solid #dac5b5;
+    border-radius: 20px;
+    padding:  20px 20px;
+    flex-wrap: wrap;
+    width: fit-content;
+    min-width: 24vw;
+    height: 500px;
+    width: 10%;
+    margin-top: 20px;
+    background-color: #F9F2EC;
+ }
+
+ .kategorijos{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 20%;
+ }
+ .buttoncategory > button{
+   width: 300px;
+   margin-top: 10px;
+ }
+
+ .atskirasUzsakymas{
+   border: 1px solid black;
+   border-radius: 10px ;
+   background-color: #fdf5ef;
+ }
